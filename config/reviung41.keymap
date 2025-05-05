@@ -16,63 +16,23 @@
         compatible = "zmk,combos";
 
         combo_lp {
-            bindings = <&kp LPAR>;
+            bindings = <&kp TAB>;
             key-positions = <15 16>;
         };
 
         combo_rp {
-            bindings = <&kp RPAR>;
+            bindings = <&kp ENTER>;
             key-positions = <19 20>;
         };
 
-        combo_lbrc {
-            bindings = <&kp LBRC>;
-            key-positions = <3 4>;
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <14 15>;
         };
 
-        combo_rbrc {
-            bindings = <&kp RBRC>;
-            key-positions = <7 8>;
-        };
-
-        combo_lbkt {
-            bindings = <&kp LBKT>;
-            key-positions = <27 28>;
-        };
-
-        combo_rbkt {
-            bindings = <&kp RBKT>;
-            key-positions = <31 32>;
-        };
-
-        combo_plus {
-            bindings = <&kp PLUS>;
-            key-positions = <4 5>;
-        };
-
-        combo_equals {
-            bindings = <&kp EQUAL>;
-            key-positions = <6 7>;
-        };
-
-        combo_a {
-            bindings = <&kp DQT>;
-            key-positions = <16 17>;
-        };
-
-        combo_sqt {
-            bindings = <&kp SQT>;
-            key-positions = <18 19>;
-        };
-
-        combo_underscore {
-            bindings = <&kp UNDER>;
-            key-positions = <28 29>;
-        };
-
-        combo_dash {
-            bindings = <&kp MINUS>;
-            key-positions = <30 31>;
+        bksp {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <20 21>;
         };
     };
 
