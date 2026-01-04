@@ -19,38 +19,99 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <11 12>;
             bindings = <&kp ESC>;
         };
 
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <10 11>;
+            key-positions = <12 13>;
             bindings = <&kp TAB>;
         };
 
-        combo_ralt {
-            timeout-ms = <50>;
-            key-positions = <17 16>;
-            bindings = <&kp RALT>;
-        };
-
-        combo_lalt {
-            timeout-ms = <50>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
-        };
-
-        combo_lgui {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LGUI>;
-        };
-
-        combo_rgui {
-            timeout-ms = <50>;
+        combo_bkspc {
+            bindings = <&kp BACKSPACE>;
             key-positions = <17 18>;
-            bindings = <&kp RGUI>;
+        };
+
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17>;
+        };
+
+        combo_l_par {
+            bindings = <&kp LPAR>;
+            key-positions = <3 13>;
+        };
+
+        combo_rpar {
+            bindings = <&kp RPAR>;
+            key-positions = <6 16>;
+        };
+
+        combo_lbkt {
+            bindings = <&kp LBKT>;
+            key-positions = <4 14>;
+        };
+
+        combo_rbkt {
+            bindings = <&kp RBKT>;
+            key-positions = <5 15>;
+        };
+
+        combo_lbrc {
+            bindings = <&kp LBRC>;
+            key-positions = <14 24>;
+        };
+
+        combo_rbrc {
+            bindings = <&kp RBRC>;
+            key-positions = <15 25>;
+        };
+
+        combo_dqt {
+            bindings = <&kp DQT>;
+            key-positions = <2 12>;
+        };
+
+        combo_sqt {
+            bindings = <&kp SQT>;
+            key-positions = <1 11>;
+        };
+
+        combo_under {
+            bindings = <&kp UNDER>;
+            key-positions = <7 17>;
+        };
+
+        combo_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <8 18>;
+        };
+
+        combo_eq {
+            bindings = <&kp EQUAL>;
+            key-positions = <8 9>;
+        };
+
+        combo_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <8 7>;
+        };
+
+        combo_grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 0>;
+        };
+
+        combo_tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <1 2>;
+        };
+
+        combo_caps {
+            bindings = <&kp CAPS>;
+            key-positions = <12 17>;
         };
     };
 
