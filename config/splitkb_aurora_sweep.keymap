@@ -68,19 +68,19 @@
 
         left_layer {
             bindings = <
-&kp N1   &kp N2     &kp N3           &kp N4           &kp N5        &kp N6     &kp N7     &kp N8    &kp N9    &kp N0
-&kp TAB  &kp LC(S)  &kp DQT          &kp PIPE2        &kp HASH      &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp DEL
-&kp ESC  &kp TILDE  &kp NON_US_BSLH  &kp NON_US_HASH  &kp TILDE2    &kp MINUS  &kp GRAVE  &kp LBKT  &kp RBKT  &kp DEL
-&mo 1    &kp LGUI                                                                                   &kp RGUI  &mo 2
+&kp ESC      &kp N2         &kp UP    &kp N4          &kp N5      &kp HOME         &kp PG_DN   &kp PG_UP     &kp END       &kp BSPC
+&kp TAB      &kp LEFT       &kp DOWN  &kp RIGHT       &kp HASH    &kp LEFT         &kp DOWN    &kp UP        &kp RIGHT     &kp RET
+&kp LC(TAB)  &kp LA(TAB)    &kp CAPS  &kp KP_NUMLOCK  &kp LGUI    &kp PRINTSCREEN  &kp C_PLAY  &kp C_VOL_DN  &kp C_VOL_UP  &kp DEL
+&mo 1        &kp BACKSPACE                                                                                   &kp SPACE     &mo 2
             >;
         };
 
         right_layer {
             bindings = <
-&kp EXCL   &kp AT       &kp HASH  &kp DLLR   &kp PRCNT    &kp CARET  &kp AMPS      &kp KP_MULTIPLY  &kp LPAR   &kp RPAR
-&kp HASH   &kp QMARK    &kp FSLH  &kp COLON  &kp SEMI     &kp MINUS  &kp KP_EQUAL  &kp LBRC         &kp RBRC   &kp BSPC
-&kp LSHFT  &kp KP_PLUS  &kp LBKT  &kp RBKT   &kp BSLH     &kp UNDER  &kp LEFT      &kp DOWN         &kp UP     &kp RIGHT
-&mo 3      &kp LCTRL                                                                                &kp SPACE  &mo 2
+&kp N1        &kp N2      &kp N3         &kp N4        &kp N5           &kp N6         &kp N7        &kp N8        &kp N9        &kp N0
+&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)
+&kp SPACE     &kp SPACE   &kp SPACE      &kp SPACE     &kp SPACE        &kp BSLH       &kp LS(PIPE)  &kp COMMA     &kp DOT       &kp FSLH
+&mo 3         &kp BSPC                                                                                             &kp SPACE     &mo 2
             >;
         };
 
