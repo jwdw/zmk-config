@@ -9,8 +9,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    //  flavor = "tap-preferred";
-    // tapping-term-ms = <200>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>; // how long a key must be pressed to trigger the "hold" behavior
+    quick-tap-ms = <200>; // trigger tap again when pressing within x ms
+    require-prior-idle-ms = <125>; // resolve to taps immediately when typing at speed
 };
 
 / {
